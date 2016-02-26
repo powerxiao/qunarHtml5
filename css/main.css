@@ -1,0 +1,221 @@
+input::-ms-input-placeholder {
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    text-align: center;
+}
+
+#searchCity {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #1ba1ba;
+    z-index: 22;
+    height: 44px;
+    display: flex;
+}
+
+#searchInput {
+    border: 1px solid white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 30px;
+    width: 83%;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    background-color: white;
+    margin: auto auto;
+}
+
+span.goBack {
+    padding: 0 10px 0 10px;
+    font-size: 38px;
+    color: #7ff;
+    display: block;
+    position: relative;
+    line-height: 44px;
+    text-align: right;
+    width: 6%;
+}
+
+#searchNav {
+    margin-top: 44px;
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;;
+}
+
+#searchNav a {
+    border-bottom: 1px solid #d7dbde;
+    flex: 1;
+    color: #1ba1ba;
+    font-size: 14px;
+}
+
+#searchNav a:link {
+    color: #1ba1ba;
+    text-decoration: none;
+}
+
+#searchNav a:active {
+    color: #1ba1ba;
+    text-decoration: none;
+}
+
+#searchNav a.active {
+    border-bottom: 2px solid #1ba1ba;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.padLeft10 {
+    padding: 0 10px 0 10px;
+}
+
+.getLoc {
+    width: 130px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 12px 0 0;
+    overflow: visible;
+    -o-text-overflow: clip;
+    text-overflow: clip
+}
+
+#cityInner .city-list {
+    background-color: #f3f8fb;
+}
+
+#cityInner .city-list dt {
+    line-height: 32px;
+}
+
+#cityInner .history-city dd, #cityInner .hot-city dd {
+    width: 75px;
+    height: 32px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+#cityInner .innerCityList .charTitle {
+    width: 100%;
+    background: #f3f8fb;
+    text-indent: 20px;
+    border-bottom: 1px solid #e1e5e9;
+    border-top: 1px solid #e1e5e9;
+    margin-top: -1px;
+    height: 33px;
+    z-index: 10
+}
+
+#cityInner .innerCityList dd {
+    width: 100%;
+    background: #fff;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+#cityInner .innerCityList dd .cityDetailSpan {
+    width: 90%;
+    text-align: left;
+    margin-top: -1px;
+    border-bottom: 1px solid #d7dbde;
+    position: relative;
+    height: 43px;
+    float: right;
+}
+
+#iCity .charNav {
+    width: 40px;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-top: 90px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #1ba1ba;
+    font-size: 12px;
+    min-height: -webkit-calc(100% - 90px);
+    position: fixed;
+}
+
+#iCity .charNav li {
+    width: 40px;
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+}
+
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+
+::-webkit-scrollbar-button:vertical:start:increment, ::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
+
+::-webkit-scrollbar-button:end:increment {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-button:start:decrement {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece:vertical:start {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece:vertical:end {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: rgb(191, 191, 191);
+}
